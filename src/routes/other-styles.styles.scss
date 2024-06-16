@@ -1,0 +1,47 @@
+
+
+.main-container {
+    @apply w-full;
+}
+
+.content-wrapper {
+    @apply sm:mx-0 lg:mx-20;
+}
+
+.gradient1 {
+    @apply bg-gradient-to-r from-red-500 to-purple-700;
+}
+
+.gradient2 {
+    @apply bg-gradient-to-r from-purple-700;
+}
+
+.blue-p {
+    @apply text-blue-500;
+}
+
+.football-spinner {
+    animation: App-logo-spin infinite 10s linear;
+    @apply text-9xl float-right -mt-5;
+}
+
+
+.sub-header-shade {
+    @apply w-full h-full bg-lightBlue-950/90 -mt-16 py-8;
+}
+
+.sub-header-text {
+    @apply w-full sm:w-1/2 px-8 sm:px-4 pt-24 pb-4;
+}
+
+.sub-header-text h2 {
+    @apply text-white text-2xl uppercase;
+}
+
+.sub-header-text h6 {
+    @apply text-xs uppercase text-gray-400;
+}
+
+.mySelect {
+    @apply w-full p-2.5 text-blue-gray-700 border border-blue-gray-200 outline-none rounded-md;
+}

@@ -1,10 +1,12 @@
 .App {
   text-align: center;
+  background: tomato;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  @apply rounded-full;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +16,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  @apply bg-red-300;
+  /* background-color: #283431; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;

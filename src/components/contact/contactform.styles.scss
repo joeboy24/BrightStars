@@ -1,0 +1,21 @@
+
+
+.contact-form {
+    @apply bg-gray-900 px-4 py-16 rounded-md uppercase;
+}
+
+#contact-form {
+    @apply p-4;
+}
+
+.contact-form h2 {
+    @apply text-center text-lg text-blue-gray-200 font-semibold tracking-tight border-b border-b-blue-gray-800/60 px-2 py-1;
+}
+
+.contact-form p {
+    @apply text-center text-xs text-blue-gray-700 px-2 py-1 tracking-widest;
+}
+
+.darkInput {
+    @apply w-full text-sm bg-gray-800/50 border-2 border-gray-700 rounded-md px-4 py-3 text-white placeholder:text-gray-500 my-2 outline-none;
+}
